@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: grid;
+  height: 100vh;
+  margin: 0px;
+  place-items: center;
+  background-color: rgb(225, 141, 141);
+  
+}
+.box{
+  background-color: rgb(48, 188, 139);
+  color: #fff;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  padding-top: 2px;
+  box-shadow: 0 0 5px blue;
+  border-radius: 20px;
+}
+.comp{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.comp>.opt{
+  width: 80%;
+  padding: 5px;
+  border-radius: 5px;
+  height: 30px;
+}
+hr{
+  width: 100%;
+  border: none;
+  border-bottom: dotted 2px #fff;
+  margin-top: 0px;
+}
+input{
+  height: 25px;
+  width: 80%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
