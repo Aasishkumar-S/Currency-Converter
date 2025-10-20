@@ -75,7 +75,7 @@ const App = () => {
         </div>
         
 
-        <p>RESULT  Rs.{res} value {val} {fromcry} to {tocry}</p>
+        <p>RESULT:  {res} {tocry} for {val} {fromcry}  </p>
       </div>
       
     </div>
